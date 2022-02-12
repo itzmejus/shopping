@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 .home{
     background-color: rgb(235, 235, 226);
     height: 700px;
-    width: 100%;
     display: flex;
+
 }
 .left {
     width: 50%;

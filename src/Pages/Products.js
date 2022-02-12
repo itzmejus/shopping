@@ -4,10 +4,10 @@ import sofa from "../media/sofa.png";
 import redchair from "../media/redchair.png";
 import pillow from "../media/pillow.png";
 import chair from "../media/2chair.png";
-import chair3 from '../media/chair3.png'
-import chair4 from '../media/chair4.png'
-import chair5 from '../media/chair5.png'
-import chair6 from '../media/chair6.png'
+import chair3 from "../media/chair3.png";
+import chair4 from "../media/chair4.png";
+import chair5 from "../media/chair5.png";
+import chair6 from "../media/chair6.png";
 
 function Products() {
   return (
@@ -15,8 +15,9 @@ function Products() {
       <div className="top">
         <h1>Products</h1>
         <h2>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do{" "}
-          <br></br>eiusmo tempor incididunt ut labore
+          Curate your dream Bedroom Your bedroom setup needs to be glamorous but
+          not glitzy. Create a serene and restful space for you to smoothly
+          slide into the slumberland. Explore The Bedroom Store
         </h2>
       </div>
       <div className="category">
@@ -30,29 +31,28 @@ function Products() {
           <img src={sofa} />
         </div>
         <div className="singlecard">
-        <img src={redchair} />
+          <img src={redchair} />
         </div>
         <div className="singlecard">
-        <img src={pillow} />
+          <img src={pillow} />
         </div>
         <div className="singlecard">
-        <img src={chair} />
+          <img src={chair} />
         </div>
-        
-      </div> <div className="cards">
+      </div>
+      <div className="cards">
         <div className="singlecard">
           <img src={chair3} />
         </div>
         <div className="singlecard">
-        <img src={chair4} />
+          <img src={chair4} />
         </div>
         <div className="singlecard">
-        <img src={chair5} />
+          <img src={chair5} />
         </div>
         <div className="singlecard">
-        <img src={chair6} />
+          <img src={chair6} />
         </div>
-        
       </div>
     </div>
   );

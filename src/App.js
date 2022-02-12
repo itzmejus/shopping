@@ -1,8 +1,8 @@
 import Features from './Pages/Features';
 import Homepage from './Pages/Homepage';
 import Navbar from './Pages/Navbar';
-import Offer from './Pages/Offer';
 import Products from './Pages/Products';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     <Homepage/>
     <Features/>
     <Products/>
-    <Offer/>
+    <Footer/>
     </div>
   );
 }

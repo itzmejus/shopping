@@ -3,13 +3,16 @@
   padding: 0;
 }
 .products {
-  background-color: aqua;
-  height: 700px;
+    background-color: rgb(247, 244, 230);
+    height:950px;
   width: 100%;
+
+  
 }
 .top {
   height: 150px;
   background-color: rgb(216, 214, 202);
+
 }
 .top h1 {
   font-size: 50px;
@@ -22,27 +25,33 @@
 }
 .category {
   height: 50px;
-  width: 100%;
   background-color: rgb(216, 214, 202);
-  display: flex;
+  display: flex;  
+
   justify-content: center;
 }
 .category h1 {
   padding-left: 40px;
   font-size: 20px;
-  padding-top: 5px;
+  padding: 10px  ;
   color: rgb(72, 70, 68);
+  margin: 10px 10px;
+  border-radius: 10px;
 }
 .cards {
   display: flex;
-  height: 350px;
+  height: 360px;
   overflow: hidden;
 }
 
 .singlecard {
   height: 350px;
-  width: 500px;
+  width: 350px;
+  margin: 13px;
+    border-radius: 70px;
   padding: 2px;
-  align-items: center;
+  justify-content: center;
+  border: 10px;
   background-color: rgb(216, 214, 202);
+  
 }
