@@ -8,9 +8,9 @@ function Footer() {
     <div className='Footer'>
         <input type='email' placeholder='type your email'/>
         <button>Subscribe</button>
-        <img src={fb}/>
-        <img src={youtube}/>
-        <img src={linkedin}/>
+        <img src={fb} alt='img'/>
+        <img src={youtube} alt='img'/>
+        <img src={linkedin} alt='img'/>
     </div>
   )
 }

@@ -28,30 +28,30 @@ function Products() {
       </div>
       <div className="cards">
         <div className="singlecard">
-          <img src={sofa} />
+          <img src={sofa} alt='img' />
         </div>
         <div className="singlecard">
-          <img src={redchair} />
+          <img src={redchair} alt='img' />
         </div>
         <div className="singlecard">
-          <img src={pillow} />
+          <img src={pillow} alt='img'/>
         </div>
         <div className="singlecard">
-          <img src={chair} />
+          <img src={chair} alt='img'/>
         </div>
       </div>
       <div className="cards">
         <div className="singlecard">
-          <img src={chair3} />
+          <img src={chair3} alt='img' />
         </div>
         <div className="singlecard">
-          <img src={chair4} />
+          <img src={chair4}alt='img' />
         </div>
         <div className="singlecard">
-          <img src={chair5} />
+          <img src={chair5} alt='img'/>
         </div>
         <div className="singlecard">
-          <img src={chair6} />
+          <img src={chair6} alt='img'/>
         </div>
       </div>
     </div>

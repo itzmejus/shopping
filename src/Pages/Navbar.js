@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Navbar.css";
 import logo from "../media/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,20 +9,20 @@ function Navbar() {
       {/* logo sectiion */}
       <div className="logo">
         <figure>
-          <img src={logo}></img>
+          <img src={logo}alt='img'/>
         </figure>
       </div>
       {/* logo sectiion end */}
       <div className="searchbar">
-        <input type='search' placeholder="type here"/>
+        <input type="search" placeholder="type here" />
         <button>Search</button>
       </div>
       {/* pages section */}
       <div>
-        <a href="/">Home</a>
-        <a href="/">Cart</a>
-        <a href="/">Account</a>
-        <a href="/">Login</a>
+        <Link to="/">Home</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/account">Account</Link>
+        <Link to="/login">Login</Link>
       </div>
       {/* pages section */}
     </div>

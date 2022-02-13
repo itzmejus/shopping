@@ -1,18 +1,20 @@
-import Features from './Pages/Features';
 import Homepage from './Pages/Homepage';
 import Navbar from './Pages/Navbar';
-import Products from './Pages/Products';
-import Footer from './Pages/Footer';
-
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Cart from './Routes/Cart';
+import Account from './Routes/Account';
+import Login from './Routes/Login';
 function App() {
   return (
-    <div>
-    <Navbar/>
-    <Homepage/>
-    <Features/>
-    <Products/>
-    <Footer/>
-    </div>
+   <Router>
+     <Navbar/>
+     <Routes>
+       <Route path='/' element={<Homepage/>}/>
+       <Route path='/cart' element={<Cart/>}/>
+       <Route path='/account' element={<Account/>}/>
+       <Route path='/login' element={<Login/>}/>
+     </Routes>
+   </Router>
   );
 }
 
